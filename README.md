@@ -13,9 +13,7 @@ Ted4j is based on:
 1. [TED](https://www.ted.com/) (obviously), as data source
 2. [Neo4j](https://neo4j.com/), for data storage and analysis purposes
 3. [Python 3.6](https://www.python.org/) with , for data extraction from TED and load to Neo4j.
-
 - [Scrapy](https://scrapy.org/) library, for information extraction and web scraping
-
 - [Neo4j Python Driver](https://neo4j.com/developer/python/#neo4j-python-driver) library, for Neo4j interface and load
 
 Right now, I'll not load Python script to GitHub: it's really rough and doesn't bring any added value.
