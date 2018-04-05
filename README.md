@@ -26,7 +26,7 @@ First, download and install [Neo4j Desktop](https://neo4j.com/download/). Notice
 ## Step2: Download Ted4j database dump 
 Download the [dump file](./database/Ted4j.dump) that contains the whole GraphDB in a local folder (e.g., Download).
 ## Step3: Create an empty Neo4j database
-Open Neo4j Desktop previously installed. On the main screen, create a new project (eg: "Ted4j"). Inside your new project, click on "Create a Local Graph" and set a preferred name and a password. Keep in mind to select version 3.3.4, to make sure it will be compatible with Ted4j dump file. **Don't start your DB, for now: we need it to be stopped to allow you to restore of the dump file**
+Open Neo4j Desktop previously installed. On the main screen, create a new project (eg: "Ted4j"). Inside your new project, click on "Create a Local Graph" and set a preferred name and a password. Keep in mind to select version 3.3.4, to make sure it will be compatible with Ted4j dump file. **Don't start your DB, for now: we need it to be stopped to allow you to restore the dump file**
 ## Step4: Restore Ted4j dump
 On your GraphDB project page, press "Manage" and then "Terminal". Here, write: `bin/neo4j-admin load --from=<path_to_your_donwload_folder>/Ted4j.dump --force`. This command will restore Ted4j on your DB. This operation may take a while. Please do not close the window while running.
 ## Step5: Run Ted4j
