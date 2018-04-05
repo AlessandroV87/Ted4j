@@ -22,6 +22,12 @@ Right now, I'll not load Python script to GitHub: it's really rough and doesn't 
 You can install Ted4j DB in 5 steps as follows.
 
 ## Step1: Download Neo4j
-First, download [Neo4j graph-database](https://neo4j.com/download/). Notice that Ted4j has been tested on Neo4j 3.3.4. I suggest you to download Neo4j Desktop and then to deploy a new GraphDB instance using the Neo4j 3.3.4.
-## Step2: Download GraphDBLP database dump 
-Download the [dump file](./database/Ted4j.dump)
+First, download and install [Neo4j Desktop](https://neo4j.com/download/). Notice that Ted4j has been tested on Neo4j 3.3.4. I suggest you to download Neo4j Desktop and then to deploy a new GraphDB instance using the Neo4j 3.3.4.
+## Step2: Download Ted4j database dump 
+Download the [dump file](./database/Ted4j.dump) that contains the whole GraphDB in a local folder (e.g., Download).
+## Step3: Create an empty Neo4j database
+Open Neo4j Desktop previously installed. On the main screen, create a new project (eg: "Ted4j"). Inside your new project, click on "Create a Local Graph" and set a preferred name and a password. Keep in mind to select version 3.3.4, to make sure it will be compatible with Ted4j dump file. **Don't start your DB, for now: we need it to be stopped to allow restore of the dump file**
+Press "Manage" and then "Terminal". Here, write:
+⋅⋅⋅`bin/neo4j-admin load --from=<path_to_your_donwload_folder>/Ted4j.dump --force`. This command will restore Ted4j on your DB. This operation may take a while. Please do not close the window while running.
+## Step5: Run Ted4j
+Just press the Start button to run your Ted4j instance. Then click on "Open Browser" to access Neo4j Desktop Browser and navigate. In a short time I'll post a couple of query examples.
