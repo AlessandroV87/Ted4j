@@ -13,8 +13,10 @@ Ted4j is based on:
 1. [TED](https://www.ted.com/) (obviously), as data source
 2. [Neo4j](https://neo4j.com/), for data storage and analysis purposes
 3. [Python 3.6](https://www.python.org/) with , for data extraction from TED and load to Neo4j.
-⋅⋅⋅3.1. [Scrapy](https://scrapy.org/) library, for information extraction and web scraping
-⋅⋅⋅3.2. [Neo4j Python Driver](https://neo4j.com/developer/python/#neo4j-python-driver) library, for Neo4j interface and load
+
+- [Scrapy](https://scrapy.org/) library, for information extraction and web scraping
+
+- [Neo4j Python Driver](https://neo4j.com/developer/python/#neo4j-python-driver) library, for Neo4j interface and load
 
 Right now, I'll not load Python script to GitHub: it's really rough and doesn't bring any added value.
 
@@ -27,7 +29,6 @@ First, download and install [Neo4j Desktop](https://neo4j.com/download/). Notice
 Download the [dump file](./database/Ted4j.dump) that contains the whole GraphDB in a local folder (e.g., Download).
 ## Step3: Create an empty Neo4j database
 Open Neo4j Desktop previously installed. On the main screen, create a new project (eg: "Ted4j"). Inside your new project, click on "Create a Local Graph" and set a preferred name and a password. Keep in mind to select version 3.3.4, to make sure it will be compatible with Ted4j dump file. **Don't start your DB, for now: we need it to be stopped to allow restore of the dump file**
-Press "Manage" and then "Terminal". Here, write:
-⋅⋅⋅`bin/neo4j-admin load --from=<path_to_your_donwload_folder>/Ted4j.dump --force`. This command will restore Ted4j on your DB. This operation may take a while. Please do not close the window while running.
+Press "Manage" and then "Terminal". Here, write: `bin/neo4j-admin load --from=<path_to_your_donwload_folder>/Ted4j.dump --force`. This command will restore Ted4j on your DB. This operation may take a while. Please do not close the window while running.
 ## Step5: Run Ted4j
 Just press the Start button to run your Ted4j instance. Then click on "Open Browser" to access Neo4j Desktop Browser and navigate. In a short time I'll post a couple of query examples.
