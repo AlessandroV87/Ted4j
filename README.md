@@ -24,4 +24,4 @@ You can install Ted4j DB in 5 steps as follows.
 ## Step1: Download Neo4j
 First, download [Neo4j graph-database](https://neo4j.com/download/). Notice that Ted4j has been tested on Neo4j 3.3.4. I suggest you to download Neo4j Desktop and then to deploy a new GraphDB instance using the Neo4j 3.3.4.
 ## Step2: Download GraphDBLP database dump 
-Download the [dump file](../database/Ted4j.dump)
+Download the [dump file](./database/Ted4j.dump)
