@@ -8,7 +8,7 @@ Mainly for 2 reasons:
 1. Let you analyse relationships in TED world, such as shortest paths between authors, common talk themes and so on... A sort of little PoC of GraphDB potentials
 2. Play with Neo4j and Python, during a boring evening
 
-## How I made this?
+## How it's made?
 Ted4j is based on:
 1. [TED](https://www.ted.com/) (obviously), as data source
 2. [Neo4j](https://neo4j.com/), for data storage and analysis purposes
