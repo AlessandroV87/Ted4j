@@ -1,0 +1,13 @@
+# Setup
+title:        Ted4j
+tagline:      A responsive theme for your project on GitHub Pages
+baseurl:      "Ted4j is a Neo4j GraphDB based collection of past TED speeches."
+locale:       "en"
+
+# About/contact
+author:
+  name:       Alessandro Vaccarino
+  url:        https://www.linkedin.com/in/alessandro-vaccarino/
+
+# Theme
+theme: jekyll-theme-cayman
