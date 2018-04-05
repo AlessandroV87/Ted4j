@@ -5,7 +5,7 @@
 
 ## Why?
 Mainly for 2 reasons:
-1. Let you analyze relationships in TED world, such as shortest paths between authors, common talk themes and so on... A sort of little PoC of GraphDB potentials
+1. Let you analyse relationships in TED world, such as shortest paths between authors, common talk themes and so on... A sort of little PoC of GraphDB potentials
 2. Play with Neo4j and Python, during a boring evening
 
 ## How I made this?
