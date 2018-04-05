@@ -1,7 +1,7 @@
 # Ted4j
 
 ## What is Ted4j project?
-**Ted4j** is a [Neo4j](https://neo4j.com/) GraphDB based collection of all past [TED](https://www.ted.com/) speeches.
+**Ted4j** is a [Neo4j](https://neo4j.com/) GraphDB based collection of past [TED](https://www.ted.com/) speeches.
 
 ## Why?
 Mainly for 2 reasons:
