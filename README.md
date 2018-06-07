@@ -30,4 +30,4 @@ Open Neo4j Desktop previously installed. On the main screen, create a new projec
 ## Step4: Restore Ted4j dump
 On your GraphDB project page, press "Manage" and then "Terminal". Here, write: `bin/neo4j-admin load --from=<path_to_your_donwload_folder>/Ted4j.dump --force`. This command will restore Ted4j on your DB. This operation may take a while. Please do not close the window while running.
 ## Step5: Run Ted4j
-Just press the Start button to run your Ted4j instance. Then click on "Open Browser" to access Neo4j Desktop Browser and navigate. In a short time I'll post a couple of query examples.
+Just press the Start button to run your Ted4j instance. Then click on "Open Browser" to access Neo4j Desktop Browser and navigate.
